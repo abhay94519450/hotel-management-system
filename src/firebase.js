@@ -3,12 +3,14 @@ import { getAuth } from "firebase/auth";
 import { getDatabase } from "firebase/database"
               
 const firebaseConfig = {
-  apiKey: "AIzaSyAdMrcFDpKBsAE_mgMmzeuUcJHi1W4co1o",
-  authDomain: "inifibackojj.firebaseapp.com",
-  projectId: "inifibackojj",
-  storageBucket: "inifibackojj.appspot.com",
-  messagingSenderId: "317047502444",
-  appId: "1:317047502444:web:087c5dac6d1a1b6c4dca49"
+  apiKey: "AIzaSyDNehgrb16DsamnzAn6WSnGikcOFVD7DEI",
+    authDomain: "portfoliooi.firebaseapp.com",
+    databaseURL: "https://portfoliooi-default-rtdb.firebaseio.com",
+    projectId: "portfoliooi",
+    storageBucket: "portfoliooi.appspot.com",
+    messagingSenderId: "1035366543159",
+    appId: "1:1035366543159:web:0038b1fc2d15a1e1e3b4b2",
+    measurementId: "G-SZS3RQ6RJH"
 };
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
