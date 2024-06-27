@@ -3,12 +3,12 @@ import { getAuth } from "firebase/auth";
 import { getDatabase } from "firebase/database"
               
 const firebaseConfig = {
-  apiKey: "AIzaSyDzha_p5FDDTlfpUy2x59R_1uHUP2eILtw",
-  authDomain: "jawanpakhackathon.firebaseapp.com",
-  projectId: "jawanpakhackathon",
-  storageBucket: "jawanpakhackathon.appspot.com",
-  messagingSenderId: "845328112334",
-  appId: "1:845328112334:web:80cb6396f82ad915ea4e9f"
+  apiKey: "AIzaSyAdMrcFDpKBsAE_mgMmzeuUcJHi1W4co1o",
+  authDomain: "inifibackojj.firebaseapp.com",
+  projectId: "inifibackojj",
+  storageBucket: "inifibackojj.appspot.com",
+  messagingSenderId: "317047502444",
+  appId: "1:317047502444:web:087c5dac6d1a1b6c4dca49"
 };
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
